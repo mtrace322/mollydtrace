@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin');
-
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Cabin", sans-serif;
+    font-family: 'Cabin', sans-serif;
+    color: #000;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
 }
-
 h1 {
 	text-transform: uppercase;
 	font-family: "Cabin", sans-serif;
@@ -16,24 +17,26 @@ h1 {
     font-size: 72px;
     text-align: center;
 }
-
-body {
-	margin: 0;
-	background: #fff;
-	font-family: 'Cabin', sans-serif;
-	font-weight: 400;
+h4 {
+    margin:  1% 0 1% 0;
 }
 
 p {
 	font-family: "Cabin", sans-serif;
 	margin: 0;
 }
-
+a {
+    text-decoration: none;
+    color: #000;
+}
 .container {
 	width: 80%;
 	margin: 0 auto;
 }
-
+ul {
+    padding:0;
+    list-style: none;
+}
 nav {
   float: center;
 }
@@ -115,4 +118,89 @@ table {
 
 th, td {
     padding: 15px;
+}
+
+
+._14 {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 400;
+}
+.footer-social-icons {
+    width: 175px;
+    display:block;
+    float: center;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+    float: center;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+}
+.fa-envelope {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #fff;
+}
+.fa-envelope:hover {
+    background-color: #fbad50;
+    color: #fff;
+    border-radius: 10px;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #fff;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+    color: #fff;
+    border-radius: 10px;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #fff;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+    color: #fff;
+    border-radius: 10px;
+}
+.fa-google-plus {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #fff;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+    color: #fff;
+    border-radius: 10px;
 }
