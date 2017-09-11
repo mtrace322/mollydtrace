@@ -29,6 +29,23 @@ a {
     text-decoration: none;
     color: #000;
 }
+html{
+  font-family: 'Cabin', sans-serif;
+  background-color:#fff;
+  color:#000;
+  font-size:1em;
+}
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50px;
+}
+
+#app{
+  letter-spacing:0.25em;
+  text-transform:uppercase;
+}
 .container {
 	width: 80%;
 	margin: 0 auto;
