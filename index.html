@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+<head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <title>Molly Trace</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
 
 <body>
@@ -20,9 +22,9 @@
     <div class="navcontainer">
       <nav>
         <ul>
-          <li class="home"><a href="#">About</a></li>
-          <li class="about"><a href="#">Work</a></li>
-          <li class="contact"><a href="#">Contact</a></li>
+          <li class="about"><a href="index.html">About</a></li>
+          <li class="work"><a href="work.html">Work</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -30,7 +32,7 @@
 <br>
 <br>
 
-<!-- About -->
+<!-- About Pic -->
 <div class="mainpic">
 	<img class ="mainimage" src="sitepictures/mainhomemolly.jpg" alt="Woman standing in front of narrow stairs">
 </div>
@@ -38,6 +40,39 @@
 <br>
 <br>
 
+<!-- Welcome Animation -->
+<container class="aboutme">
+  <div id="app"></div>
+</container>
+ <script language="javascript">
+const items = [
+  'Hello!',
+  'My name is Molly.',
+]
+const app = document.getElementById('app')
+let count = 0
+let index = 0
+let typingEffect = () => {
+  let text = items[index]
+  if (count < text.length) {
+    setTimeout(() => {
+      app.innerHTML += text[count]
+      count++
+      typingEffect()
+    }, Math.floor(Math.random(10) * 100))
+  } else {
+    count = 0;
+    index = (index + 1 < items.length) ? index + 1 : 0
+    setTimeout(() => {
+      app.innerHTML = ''
+      typingEffect()
+    }, 1500)
+  }
+}
+typingEffect()
+ </script>
+
+<!--About Attributes -->
 <table>
   <tr>
     <td>
@@ -73,12 +108,12 @@
 <br>
 <!-- Footer -->
 <div class="footer-social-icons">
-    <h4 class="_14">Contact me on</h4>
+    <h4 class="foot">Let's Connect</h4>
     <ul class="social-icons">
-        <li><a href="" class="social-icon"> <i class="fa fa-envelope"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-        <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+        <li><a href="mailto:molly.trace@gmail.com" class="social-icon"> <i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/mollydtrace/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://plus.google.com/+MollyTrace" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.instagram.com/mtrace/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
     </ul>
 </div>
 
