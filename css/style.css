@@ -158,14 +158,13 @@ th, td {
     font-weight: 400;
 }
 .footer-social-icons {
-    width: 200px;
     display:block;
-    float: center;
     margin: 0 auto;
+    width: 175px;
 }
 .social-icon {
     color: #fff;
-    float: center;
+    width: 50%;
 }
 ul.social-icons {
     margin-top: 10px;
