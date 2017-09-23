@@ -235,3 +235,8 @@ ul.social-icons {
     color: #fff;
     border-radius: 10px;
 }
+.construction {
+	margin: auto;
+	display: block;
+	width: 50%;
+}
