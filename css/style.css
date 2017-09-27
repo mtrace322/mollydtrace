@@ -32,7 +32,13 @@ h4 {
     font-family: "Cabin", sans-serif;
     font-weight: normal;
     text-align: center;
-    font-size: 24px
+    font-size: 20px
+}
+h5 {
+    margin:  1% 0 1% 0;
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 p {
@@ -186,6 +192,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #fff;
+    margin: -10px;
 }
 .fa-envelope:hover {
     background-color: #fbad50;
@@ -200,6 +207,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #fff;
+    margin: -10px;
 }
 .fa-instagram:hover {
     background-color: #bc2a8d;
@@ -207,13 +215,14 @@ ul.social-icons {
     border-radius: 10px;
 }
 .fa-linkedin {
-    padding:10px 14px;
+    padding:10px 12px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #fff;
+    margin: -10px;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
@@ -228,6 +237,7 @@ ul.social-icons {
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #fff;
+    margin: -10px;
 }
 .fa-google-plus:hover {
     background-color: #e25714;
@@ -239,3 +249,51 @@ ul.social-icons {
 	display: block;
 	width: 50%;
 }
+.contact-info {
+  width: 45%;
+  align-self: center;
+  margin: 0 auto;
+}
+.col-1{
+  float: left;
+  margin-right: -1%;
+  width: 50%;
+}
+.col-2{
+  margin-top: 15%;
+  float: right;
+  margin-left: -1%;
+  width: 50%;
+}
+.contact-social-icon {
+    color: #fff;
+}
+ul.contact-social-icon {
+    margin-top: 10px;
+}
+.contact-social-icon li {
+    margin-left: 33%;
+    vertical-align: top;
+    display: block;
+    text-align: left;
+}
+.contact-social-icon a {
+    color: #000;
+    text-decoration: none;
+}
+.contact-footer {
+  clear: both;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
