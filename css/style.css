@@ -7,25 +7,27 @@ body {
     background: #fff;
     -webkit-font-smoothing: antialiased;
 }
+* {
+  font-family: 'Cabin', sans-serif;
+  max-width: 100%;
+  height: auto;
+}
 h1 {
 	text-transform: uppercase;
-	font-family: "Cabin", sans-serif;
 	text-align: center;
-	font-size: 300%;
-    letter-spacing: 10px;
-    font-weight: bold;
-    font-size: 72px;
-    text-align: center;
+	font-size: 5em;
+  letter-spacing: .33em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
 }
 h2 {
-		text-transform: uppercase;
-	font-family: "Cabin", sans-serif;
+	text-transform: uppercase;
 	text-align: center;
-	font-size: 300%;
-    letter-spacing: 10px;
-    font-weight: bold;
-    font-size: 48px;
-    text-align: center;
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
 }
 h4 {
     margin:  1% 0 1% 0;
@@ -40,20 +42,9 @@ h5 {
     font-weight: normal;
     font-size: 18px;
 }
-
-p {
-	font-family: "Cabin", sans-serif;
-	margin: 0;
-}
 a {
     text-decoration: none;
     color: #000;
-}
-html{
-  font-family: 'Cabin', sans-serif;
-  background-color:#fff;
-  color:#000;
-  font-size:1em;
 }
 .aboutme {
   display: flex;
@@ -61,13 +52,11 @@ html{
   justify-content: center;
   height:25px;
 }
-
 #app{
   letter-spacing:0.25em;
   text-transform:uppercase;
 }
-.container {
-	width: 80%;
+.navcontainer {
 	margin: 0 auto;
 }
 ul {
@@ -77,22 +66,17 @@ ul {
 nav {
   float: center;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-
-.about {
-	margin-left: 0;
-}
 nav li {
   display: inline-block;
-  margin-left: 50px;
   padding-bottom: 5px;
   position: relative;
+  margin: 25px;
 }
 nav a {
   color: #000;
@@ -112,7 +96,6 @@ nav a:before {
   width: 0%;
   transition: width 0s ease, background .5s ease;
 }
-
 nav a:after {
   content: '';
   display: block;
@@ -124,36 +107,35 @@ nav a:after {
   width: 0%;
   transition: width .5s ease;
 }
-
 nav a:hover:before {
   width: 100%;
   background-color: #000;
   transition: width .25s ease;
 }
-
 nav a:hover:after {
   width: 100%;
   background: transparent;
   transition: all 0s ease;
 }
-
 .mainpic {
 	display: block;
 	margin: auto;
-	width: 30%;
+  float: center;
 }
-
+.mainimage {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
 table {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 th, td {
     padding: 15px;
 }
-
-
 .foot {
     font-size: 1.4em;
     text-align: center;
